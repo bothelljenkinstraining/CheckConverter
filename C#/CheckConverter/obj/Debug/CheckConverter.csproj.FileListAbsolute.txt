@@ -1,0 +1,11 @@
+E:\tfs\Main\QualityEngineering\Example.CheckConverter\C#\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\tfs\Main\QualityEngineering\Example.CheckConverter\C#\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\tfs\Main\QualityEngineering\Example.CheckConverter\C#\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\tfs\Main\QualityEngineering\Example.CheckConverter\C#\ConsoleApplication1\obj\Debug\CheckConverter.csprojResolveAssemblyReference.cache
+E:\tfs\Main\QualityEngineering\Example.CheckConverter\C#\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\tfs\Main\QualityEngineering\Example.CheckConverter\C#\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+E:\tfs\Main\QualityEngineering\CheckConverter\C#\CheckConverter\bin\Debug\ConsoleApplication1.exe.config
+E:\tfs\Main\QualityEngineering\CheckConverter\C#\CheckConverter\bin\Debug\ConsoleApplication1.exe
+E:\tfs\Main\QualityEngineering\CheckConverter\C#\CheckConverter\bin\Debug\ConsoleApplication1.pdb
+E:\tfs\Main\QualityEngineering\CheckConverter\C#\CheckConverter\obj\Debug\ConsoleApplication1.exe
+E:\tfs\Main\QualityEngineering\CheckConverter\C#\CheckConverter\obj\Debug\ConsoleApplication1.pdb
