@@ -24,11 +24,11 @@ namespace CheckConverter
                 }
                 if (number == "0")
                 {
-                    Console.WriteLine("The number in currency fomat is \nZero Only");
+                    Console.WriteLine("The number in currency format is \nZero Only");
                 }
                 else
                 {
-                    Console.WriteLine("The number in currency fomat is \n{0}", isNegative + ConvertToWords(number));
+                    Console.WriteLine("The number in currency format is \n{0}", isNegative + ConvertToWords(number));
                 }
                 Console.ReadKey();
             }
