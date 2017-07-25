@@ -1,20 +1,22 @@
 pipeline {
-  agent any
-  stages {
-    stage('Checkout') {
-      steps {
-        sh 'checkout scm'
-      }
-    }
-    stage('Build') {
-      steps {
-        sh 'bat \'msbuild.exe "C#/CheckConverter.sln"\''
-      }
-    }
-    stage('Test') {
-      steps {
-        sh 'bat \'vstest.console.exe "C#/CheckConverter.Tests/bin/Debug/CheckConverter.Tests.dll" /Logger:trx\''
-      }
-    }
-  }
+	agent { 
+		label 'swarm' 
+	}
+	stages {
+		stage ('Checkout') {
+			steps {
+				checkout scm
+			}
+		}
+		stage ('Build') {
+			steps {
+				bat 'msbuild.exe "C#/CheckConverter.sln"'
+			}
+		}
+		stage ('Test') {
+			steps {
+				bat 'vstest.console.exe "C#/CheckConverter.Tests/bin/Debug/CheckConverter.Tests.dll" /Logger:trx'
+			}
+		}
+	}
 }
